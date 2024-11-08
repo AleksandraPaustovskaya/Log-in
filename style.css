@@ -26,16 +26,19 @@ img {
 
 .context button {
     border: none;
+    background-color: darkslategrey;
+    font-family: 'Caveat';
 }
 
 .context {
     display: none;
-    top: 60px;
+    top: 30vh;
 }
 
 .menu:hover .context{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 
@@ -100,14 +103,16 @@ input {
 
 .btn {
     width: 60%;
-    height: 10%;
-    margin-top: 1vh;
-    padding-top: 1vh;
+    height: 20%;
+    margin-top: 3vh;
     align-self: center;
     border: none;
     background-color: darkslategrey;
-    box-sizing: content-box;
-    border-radius: 5%;
+    box-sizing:border-box ;
+    border-radius: 15px;
+
+    font-size: medium;
+    font-family: 'Caveat';
 }
 
 .log-in h2 {
@@ -129,5 +134,5 @@ input {
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    padding-top: 20vh;
+    padding-top: 10vh;
 }
